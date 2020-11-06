@@ -29,3 +29,9 @@ def divide(dividend, divisor):
 
 def exponent(num, exponent):
     return num ** exponent
+
+def abs(num):
+    if num < 0:
+        return -num
+    else:
+        return num
