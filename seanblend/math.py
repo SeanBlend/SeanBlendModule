@@ -15,35 +15,39 @@
 #
 # ##### END GPL LICENSE BLOCK #####
 
-def add(addend1, addend2):
+def Add(addend1, addend2):
     return addend1 + addend2
 
-def subtract(num1, num2):
+def Subtract(num1, num2):
     return num1 - num2
 
-def multiply(factor1, factor2):
+def Multiply(factor1, factor2):
     return factor1 * factor2
 
-def divide(dividend, divisor):
+def Divide(dividend, divisor):
     return dividend / divisor
 
-def exponent(num, exponent):
+def Exponent(num, exponent):
     return num ** exponent
 
-def abs(num):
+def Abs(num):
     if num < 0:
         return -num
     else:
         return num
 
-def scientificNotation(num):
+def ScientificNotation(num):
     revs = 0
-    if num < 10:
+    if num < 10 and num >= 0:
         return num
     elif num == 10:
         return "1x10^1"
-    elif num > 10:
-        while num >= 10:
-            num /= 10
-            revs += 1
+    elif num > 10 or num < 0:
+        while num >= 10 or num < 0:
+            if num >= 10:
+                num /= 10
+                revs += 1
+            elif num < 0:
+                num /= -10
+                revs += 1
         return str(num) + "x10^" + str(revs)
