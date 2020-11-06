@@ -44,10 +44,6 @@ def ScientificNotation(num):
         return "1x10^1"
     elif num > 10 or num < 0:
         while num >= 10 or num < 0:
-            if num >= 10:
-                num /= 10
-                revs += 1
-            elif num < 0:
-                num /= -10
-                revs += 1
-        return str(num) + "x10^" + str(revs)
+            num /= 10
+            revs += 1
+            return str(num) + "x10^" + str(revs)
