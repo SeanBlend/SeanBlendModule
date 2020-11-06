@@ -15,4 +15,3 @@
 #
 # ##### END GPL LICENSE BLOCK #####
 
-test = 1
