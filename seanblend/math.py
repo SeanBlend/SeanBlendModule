@@ -52,4 +52,7 @@ def ScientificNotation(num):
             while num <= 0:
                 num /= -10
                 revs += 1
-                return str(num) + "x10^" + str(revs)
+                if num < 0:
+                    return str(num) + "x10^" + str(revs)
+                else:
+                    return str(-num) + "x10^" + str(revs)
