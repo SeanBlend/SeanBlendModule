@@ -16,3 +16,4 @@
 # ##### END GPL LICENSE BLOCK #####
 
 from . import math
+from . import daily_uses
