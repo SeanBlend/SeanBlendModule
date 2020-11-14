@@ -1,25 +1,24 @@
+def _PrintList(list):
+    num = 1
+    if len(list) != 0:
+        print("\nYour list:")
+        for l in list:
+            if num >= len(list):
+                print("    " + str(num) + ") " + l + "\n")
+            else:
+                print("    " + str(num) + ") " + l)
+            num += 1
+    else:
+        print("\nYour list is empty.\n")
+
+
 def List():
     userList = []
-    userInput = str(input("Enter your item: "))
-    
-    
-    def PrintList(list):
-        num = 1
-        if len(list) != 0:
-            print("\nYour list:")
-            for l in list:
-                if num >= len(list):
-                    print("    " + str(num) + ") " + l + "\n")
-                else:
-                    print("    " + str(num) + ") " + l)
-                num += 1
-        else:
-            print("\nYour list is empty.\n")
-    
+    userInput = str(input("Enter your item: "))    
     
     while userInput.lower() != "done":
         if userInput.lower() == "showlist":
-            PrintList(userList)
+            _PrintList(userList)
         elif userInput.lower().startswith("remove"):
             remove = userInput.lower().replace("remove", "").strip()
             if remove != "*":
@@ -30,4 +29,4 @@ def List():
             userInput = "done"
         userList.append(userInput)
         userInput = str(input("Enter your item: "))
-    PrintList(userList)
+    _PrintList(userList)
