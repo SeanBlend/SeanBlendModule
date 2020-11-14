@@ -16,3 +16,8 @@
 # ##### END GPL LICENSE BLOCK #####
 
 from . import daily_uses
+
+print("""Python module SeanBlend
+Owner: SeanBlend <https://github.com/SeanBlend>
+Contributors:
+    Sean Huang <https://github.com/SeanBlend>""")
