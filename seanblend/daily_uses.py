@@ -23,8 +23,10 @@ def List():
             remove = userInput.lower().replace("remove", "").strip()
             if remove != "*":
                 userList.remove(remove)
+                continue
             else:
                 userList = []
+                continue
         elif userInput.strip == 1:
             userInput = "done"
         userList.append(userInput)
