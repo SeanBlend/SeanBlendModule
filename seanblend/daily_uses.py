@@ -28,5 +28,6 @@ def List():
                 userList = []
         elif userInput.strip == 1:
             userInput = "done"
+        userList.append(userInput)
         userInput = str(input("Enter your item: "))
     PrintList(userList)
