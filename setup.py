@@ -22,7 +22,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name = "seanblend",
-    version = "0.0.52",
+    version = "0.0.521",
     author = "SeanBlend",
     author_email = "seanblend@gmail.com",
     description = "A Python module by SeanBlend.",
