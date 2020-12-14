@@ -14,7 +14,7 @@ def _print_list(list):
 
 def shopping_list():
     userList = []
-    userInput = str(input("Enter your item: "))
+    userInput = input("Enter your item: ")
 
     while userInput.lower() != "done":
         if userInput.lower() == "showlist":
@@ -27,9 +27,9 @@ def shopping_list():
                 userList = []
         else:
             userList.append(userInput)
-        userInput = str(input("Enter your item: "))
+        userInput = input("Enter your item: ")
     _print_list(userList)
-    saveFile = str(input("Save file to txt? (y/n) "))
+    saveFile = input("Save file to txt? (y/n) ")
     num = 1
     fileWrite = ""
     if len(userList) != 0:
@@ -41,7 +41,7 @@ def shopping_list():
                 fileWrite += "    " + str(num) + ") " + str(l)
             num += 1
     else:
-        fileWrite += print("\nYour list is empty.\n")
+        fileWrite += "\nYour list is empty.\n"
 
     if saveFile == "y":
         filePath = str(input("File path: ").replace("\\", "\\\\"))
