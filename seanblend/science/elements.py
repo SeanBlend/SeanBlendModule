@@ -86,3 +86,10 @@ class Magnesium(Element):
     atomic_mass = 24.305
     atomic_number = 12
     type = "Reactive Metals (Natrual)"
+
+class Aluminum(Element):
+    name = "Aluminum"
+    chemical_symbol = "Al"
+    atomic_mass = 26.982
+    atomic_number = 13
+    type = "Mainly Non-metals (Natrual)"
