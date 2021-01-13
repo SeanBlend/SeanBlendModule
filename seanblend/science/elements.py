@@ -100,3 +100,10 @@ class Silicon(Element):
     atomic_mass = 28.086
     atomic_number = 14
     type = "Mainly Non-metals (Natrual)"
+
+class Phosphorus(Element):
+    name = "Phosphorus"
+    chemical_symbol = "P"
+    atomic_mass = 30.974
+    atomic_number = 15
+    type = "Mainly Non-metals (Natrural)"
