@@ -149,3 +149,10 @@ class Scandium(Element):
     atomic_mass = 44.956
     atomic_number = 21
     type = "Transition Metals (Natural)"
+
+class Titanium(Element):
+    name = "Titanium"
+    chemical_symbol = "Ti"
+    atomic_mass = 47.867
+    atomic_number = 22
+    type = "Transition Metals (Natural)"
