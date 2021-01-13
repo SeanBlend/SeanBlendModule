@@ -233,3 +233,10 @@ class Arsenic(Element):
     atomic_mass = 74.922
     atomic_number = 33
     type = "Mainly Non-metals (Natural)"
+
+class Selenium(Element):
+    name = "Selenium"
+    chemical_symbol = "Se"
+    atomic_mass = 78.96
+    atomic_number = 34
+    type = "Mainly Non-metals (Natural)"
