@@ -32,3 +32,15 @@ class Lithium:
 
     def data(self):
         print(f"Name: {self.name}\nChemical Symbol: {self.chemical_symbol}\nAtomic Mass: {self.atomic_mass}\nAtomic Number: {self.atomic_number}\ntype: {self.type}")
+
+
+class Beryllium:
+    def __init__(self):
+        self.name = "Beryllium"
+        self.atomic_number = 4
+        self.atomic_mass = 9.0122
+        self.chemical_symbol = "Be"
+        self.type = "Reactive Metals"
+        
+    def data(self):
+        print(f"Name: {self.name}\nChemical Symbol: {self.chemical_symbol}\nAtomic Mass: {self.atomic_mass}\nAtomic Number: {self.atomic_number}\ntype: {self.type}")
