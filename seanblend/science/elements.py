@@ -212,3 +212,10 @@ class Zinc(Element):
     atomic_mass = 65.39
     atomic_number = 30
     type = "Transition Metals (Natural)"
+
+class Gallium(Element):
+    name = "Gallium"
+    chemical_symbol = "Ga"
+    atomic_mass = 69.723
+    atomic_number = 31
+    type = "Mainly Non-metals (Natural)"
