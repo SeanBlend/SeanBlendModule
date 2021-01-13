@@ -247,3 +247,10 @@ class Bromine(Element):
     atomic_mass = 79.904
     atomic_number = 35
     type = "Mainly Non-metals (Natrual)"
+
+class Krypton(Element):
+    name = "Krypton"
+    chemical_symbol = "Kr"
+    atomic_mass = 83.80
+    atomic_number = 36
+    type = "Mainly Non-metals (Natural)"
