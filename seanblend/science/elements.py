@@ -142,3 +142,10 @@ class Calcium(Element):
     atomic_mass = 40.078
     atomic_number = 20
     type = "Reactive Metals (Natural)"
+
+class Scandium(Element):
+    name = "Scandium"
+    chemical_symbol = "Sc"
+    atomic_mass = 44.956
+    atomic_number = 21
+    type = "Transition Metals (Natural)"
