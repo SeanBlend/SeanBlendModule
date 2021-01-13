@@ -8,74 +8,81 @@ class Hydrogen(Element):
     chemical_symbol = "H"
     atomic_mass = 1.0079
     atomic_number = 1
-    type = "Reactive Metals"
+    type = "Reactive Metals (Natrual)"
 
 class Helium(Element):
     name = "Helium"
     chemical_symbol = "He"
     atomic_mass = 4.0026
     atomic_number = 2
-    type = "Mainly Non-metals"
+    type = "Mainly Non-metals (Natrual)"
 
 class Lithium(Element):
     name = "Lithium"
     chemical_symbol = "Li"
     atomic_mass = 6.941
     atomic_number = 3
-    type = "Reactive Metals"
+    type = "Reactive Metals (Natrual)"
 
 class Beryllium(Element):
     name = "Beryllium"
     chemical_symbol = "Be"
     atomic_mass = 9.0122
     atomic_number = 4
-    type = "Reactive Metals"
+    type = "Reactive Metals (Natrual)"
 
 class Boron(Element):
     name = "Boron"
     chemical_symbol = "B"
     atomic_mass = 10.811
     atomic_number = 5
-    type = "Mainly Non-metals"
+    type = "Mainly Non-metals (Natrual)"
 
 class Carbon(Element):
     name = "Carbon"
     chemical_symbol = "C"
     atomic_mass = 12.011
     atomic_number = 6
-    type = "Mainly Non-metals"
+    type = "Mainly Non-metals (Natrual)"
 
 class Nitrogen(Element):
     name = "Nitrogen"
     chemical_symbol = "N"
     atomic_mass = 14.007
     atomic_number = 7
-    type = "Mainly Non-metals"
+    type = "Mainly Non-metals (Natrual)"
 
 class Oxygen(Element):
     name = "Oxygen"
     chemical_symbol = "O"
     atomic_mass = 15.999
     atomic_number = 8
-    type = "Mainly Non-metals"
+    type = "Mainly Non-metals (Natrual)"
 
 class Fluorine(Element):
     name = "Fluorine"
     chemical_symbol = "F"
     atomic_mass = 18.998
     atomic_number = 9
-    type = "Mainly Non-metals"
+    type = "Mainly Non-metals (Natrual)"
 
 class Neon(Element):
     name = "Neon"
     chemical_symbol = "Ne"
     atomic_mass = 20.180
     atomic_number = 10
-    type = "Mainly Non-metals"
+    type = "Mainly Non-metals (Natrual)"
 
 class Sodium(Element):
     name = "Sodium"
     chemical_symbol = "Na"
     atomic_mass = 22.990
     atomic_number = 11
-    type = "Reactive Metals"
+    type = "Reactive Metals (Natrual)"
+
+class Magnesium(Element):
+    name = "Magnesium"
+    chemical_symbol = "Mg"
+    atomic_mass = 24.305
+    atomic_number = 12
+    type = "Reactive Metals (Natrual)"
