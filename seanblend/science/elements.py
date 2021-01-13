@@ -226,3 +226,10 @@ class Germanium(Element):
     atomic_mass = 72.64
     atomic_number = 32
     type = "Mainly Non-metals (Natural)"
+
+class Arsenic(Element):
+    name = "Arsenic"
+    chemical_symbol = "As"
+    atomic_mass = 74.922
+    atomic_number = 33
+    type = "Mainly Non-metals (Natural)"
