@@ -128,3 +128,10 @@ class Argon(Element):
     atomic_mass = 39.948
     atomic_number = 18
     type = "Mainly Non-metals (Natural)"
+
+class Potassium(Element):
+    name = "Potassium"
+    chemical_symbol = "K"
+    atomic_mass = 39.098
+    atomic_number = 19
+    type = "Reactive Metals (Natural)"
