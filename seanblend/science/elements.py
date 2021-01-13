@@ -177,3 +177,10 @@ class Maganese:
     atomic_mass = 54.938
     atomic_number = 25
     type = "Transition Metals (Natural)"
+
+class Iron:
+    name = "Iron"
+    chemical_symbol = "Fe"
+    atomic_mass = 55.845
+    atomic_number = 26
+    type = "Transition Metals (Natural)"
