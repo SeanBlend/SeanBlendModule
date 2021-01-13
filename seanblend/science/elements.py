@@ -107,3 +107,10 @@ class Phosphorus(Element):
     atomic_mass = 30.974
     atomic_number = 15
     type = "Mainly Non-metals (Natrural)"
+
+class Sulfur(Element):
+    name = "Sulfur"
+    chemical_symbol = "S"
+    atomic_mass = 32.065
+    atomic_number = 16
+    type = "Mainly Non-metals (Natural)"
