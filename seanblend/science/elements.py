@@ -254,3 +254,10 @@ class Krypton(Element):
     atomic_mass = 83.80
     atomic_number = 36
     type = "Mainly Non-metals (Natural)"
+
+class Rubidium(Element):
+    name = "Rubidium"
+    chemical_symbol = "Rb"
+    atomic_mass = 85.468
+    atomic_number = 37
+    type = "Reactive Metals (Natural)"
