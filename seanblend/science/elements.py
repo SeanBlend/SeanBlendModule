@@ -198,3 +198,10 @@ class Nickel(Element):
     atomic_mass = 58.693
     atomic_number = 28
     type = "Transition Metals (Natural)"
+
+class Copper(Element):
+    name = "Copper"
+    chemical_symbol = "Cu"
+    atomic_mass = 63.546
+    atomic_number = 29
+    type = "Transition Metals (Natural)"
