@@ -261,3 +261,10 @@ class Rubidium(Element):
     atomic_mass = 85.468
     atomic_number = 37
     type = "Reactive Metals (Natural)"
+
+class Strontium(Element):
+    name = "Strontium"
+    chemical_symbol = "Sr"
+    atomic_mass = 87.62
+    atomic_number = 38
+    type = "Reactive Metals (Natural)"
