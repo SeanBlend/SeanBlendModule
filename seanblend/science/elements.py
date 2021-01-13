@@ -1,6 +1,6 @@
 class Element:
     def data(self):
-        print(f"Name: {self.name}\nChemical Symbol: {self.chemical_symbol}\nAtomic Mass: {self.atomic_mass}\nAtomic Number: {self.atomic_number}\ntype: {self.type}")
+        print(f"Name: {self.name}\nChemical Symbol: {self.chemical_symbol}\nAtomic Mass: {self.atomic_mass}\nAtomic Number: {self.atomic_number}\nType: {self.type}")
 
 
 class Hydrogen(Element):
