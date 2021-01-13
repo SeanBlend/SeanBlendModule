@@ -191,3 +191,10 @@ class Cobalt(Element):
     atomic_mass = 58.933
     atomic_number = 27
     type = "Transition Metals (Natural)"
+
+class Nickel(Element):
+    name = "Nickel"
+    chemical_symbol = "Ni"
+    atomic_mass = 58.693
+    atomic_number = 28
+    type = "Transition Metals (Natural)"
