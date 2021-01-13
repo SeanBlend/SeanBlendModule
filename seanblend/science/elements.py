@@ -170,3 +170,10 @@ class Chronium(Element):
     atomic_mass = 51.996
     atomic_number = 24
     type = "Transition Metals (Natural)"
+
+class Maganese:
+    name = "Maganese"
+    chemical_symbol = "Mn"
+    atomic_mass = 54.938
+    atomic_number = 25
+    type = "Transition Metals (Natural)"
