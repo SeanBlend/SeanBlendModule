@@ -135,3 +135,10 @@ class Potassium(Element):
     atomic_mass = 39.098
     atomic_number = 19
     type = "Reactive Metals (Natural)"
+
+class Calcium(Element):
+    name = "Calcium"
+    chemical_symbol = "Ca"
+    atomic_mass = 40.078
+    atomic_number = 20
+    type = "Reactive Metals (Natural)"
