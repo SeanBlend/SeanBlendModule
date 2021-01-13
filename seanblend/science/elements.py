@@ -30,3 +30,52 @@ class Beryllium(Element):
     atomic_mass = 9.0122
     atomic_number = 4
     type = "Reactive Metals"
+
+class Boron(Element):
+    name = "Boron"
+    chemical_symbol = "B"
+    atomic_mass = 10.811
+    atomic_number = 5
+    type = "Mainly Non-metals"
+
+class Carbon(Element):
+    name = "Carbon"
+    chemical_symbol = "C"
+    atomic_mass = 12.011
+    atomic_number = 6
+    type = "Mainly Non-metals"
+
+class Nitrogen(Element):
+    name = "Nitrogen"
+    chemical_symbol = "N"
+    atomic_mass = 14.007
+    atomic_number = 7
+    type = "Mainly Non-metals"
+
+class Oxygen(Element):
+    name = "Oxygen"
+    chemical_symbol = "O"
+    atomic_mass = 15.999
+    atomic_number = 8
+    type = "Mainly Non-metals"
+
+class Fluorine(Element):
+    name = "Fluorine"
+    chemical_symbol = "F"
+    atomic_mass = 18.998
+    atomic_number = 9
+    type = "Mainly Non-metals"
+
+class Neon(Element):
+    name = "Neon"
+    chemical_symbol = "Ne"
+    atomic_mass = 20.180
+    atomic_number = 10
+    type = "Mainly Non-metals"
+
+class Sodium(Element):
+    name = "Sodium"
+    chemical_symbol = "Na"
+    atomic_mass = 22.990
+    atomic_number = 11
+    type = "Reactive Metals"
