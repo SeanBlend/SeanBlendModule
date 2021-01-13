@@ -219,3 +219,10 @@ class Gallium(Element):
     atomic_mass = 69.723
     atomic_number = 31
     type = "Mainly Non-metals (Natural)"
+
+class Germanium(Element):
+    name = "Germanium"
+    chemical_symbol = "Ge"
+    atomic_mass = 72.64
+    atomic_number = 32
+    type = "Mainly Non-metals (Natural)"
