@@ -114,3 +114,10 @@ class Sulfur(Element):
     atomic_mass = 32.065
     atomic_number = 16
     type = "Mainly Non-metals (Natural)"
+
+class Chlorine(Element):
+    name = "Chlorine"
+    chemical_symbol = "Cl"
+    atomic_mass = 35.453
+    atomic_number = 17
+    type = "Mainly Non-metals (Natural)"
