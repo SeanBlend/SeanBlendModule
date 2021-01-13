@@ -163,3 +163,10 @@ class Vanadium(Element):
     atomic_mass = 50.942
     atomic_number = 23
     type = "Transition Metals (Natural)"
+
+class Chronium(Element):
+    name = "Chronium"
+    chemical_symbol = "Cr"
+    atomic_mass = 51.996
+    atomic_number = 24
+    type = "Transition Metals (Natural)"
