@@ -93,3 +93,10 @@ class Aluminum(Element):
     atomic_mass = 26.982
     atomic_number = 13
     type = "Mainly Non-metals (Natrual)"
+
+class Silicon(Element):
+    name = "Silicon"
+    chemical_symbol = "Si"
+    atomic_mass = 28.086
+    atomic_number = 14
+    type = "Mainly Non-metals (Natrual)"
