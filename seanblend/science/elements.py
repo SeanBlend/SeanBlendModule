@@ -121,3 +121,10 @@ class Chlorine(Element):
     atomic_mass = 35.453
     atomic_number = 17
     type = "Mainly Non-metals (Natural)"
+
+class Argon(Element):
+    name = "Argon"
+    chemical_symbol = "Ar"
+    atomic_mass = 39.948
+    atomic_number = 18
+    type = "Mainly Non-metals (Natural)"
