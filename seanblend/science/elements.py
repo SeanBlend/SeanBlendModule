@@ -240,3 +240,10 @@ class Selenium(Element):
     atomic_mass = 78.96
     atomic_number = 34
     type = "Mainly Non-metals (Natural)"
+
+class Bromine(Element):
+    name = "Bromine"
+    chemical_symbol = "Br"
+    atomic_mass = 79.904
+    atomic_number = 35
+    type = "Mainly Non-metals (Natrual)"
