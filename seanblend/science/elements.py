@@ -156,3 +156,10 @@ class Titanium(Element):
     atomic_mass = 47.867
     atomic_number = 22
     type = "Transition Metals (Natural)"
+
+class Vanadium(Element):
+    name = "Vanadium"
+    chemical_symbol = "V"
+    atomic_mass = 50.942
+    atomic_number = 23
+    type = "Transition Metals (Natural)"
