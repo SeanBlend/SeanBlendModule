@@ -205,3 +205,10 @@ class Copper(Element):
     atomic_mass = 63.546
     atomic_number = 29
     type = "Transition Metals (Natural)"
+
+class Zinc(Element):
+    name = "Zinc"
+    chemical_symbol = "Zn"
+    atomic_mass = 65.39
+    atomic_number = 30
+    type = "Transition Metals (Natural)"
