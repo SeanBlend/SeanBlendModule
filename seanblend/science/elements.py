@@ -296,3 +296,10 @@ class Molybdenum(Element):
     atomic_mass = 95.94
     atomic_number = 42
     type = "Transition Metals (Natural)"
+
+class Technetium(Element):
+    name = "Technetium"
+    chemical_symbol = "Tc"
+    atomic_mass = 96
+    atomic_number = 43
+    type = "Transition Metals (Natural)"
