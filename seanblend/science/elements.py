@@ -471,3 +471,10 @@ class Holmium(Element):
     atomic_mass = 164.93
     atomic_number = 67
     type = "Rare Earth Metals (Natural)"
+
+class Erbium(Element):
+    name = "Erbium"
+    chemical_symbol = "Er"
+    atomic_mass = 167.26
+    atomic_number = 68
+    type = "Rare Earth Metals (Natural)"
