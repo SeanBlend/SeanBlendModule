@@ -373,3 +373,10 @@ class Iodine(Element):
     atomic_mass = 126.90
     atomic_number = 53
     type = "Mainly Non-metals (Natural)"
+
+class Xenon(Element):
+    name = "Xenon"
+    chemical_symbol = "Xe"
+    atomic_mass = 131.29
+    atomic_number = 54
+    type = "Mainly Non-metals (Natural)"
