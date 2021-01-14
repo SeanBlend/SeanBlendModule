@@ -429,3 +429,10 @@ class Promethium(Element):
     atomic_mass = 145
     atomic_number = 61
     type = "Rare Earth Metals (Natural)"
+
+class Samarium(Element):
+    name = "Samarium"
+    chemical_symbol = "Sm"
+    atomic_mass = 150.36
+    atomic_number = 62
+    type = "Rare Earth Metals (Natural)"
