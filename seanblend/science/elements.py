@@ -464,3 +464,10 @@ class Dysprosium(Element):
     atomic_mass = 162.5
     atomic_number = 66
     type = "Rare Earth Metals (Natural)"
+
+class Holmium(Element):
+    name = "Holmium"
+    chemical_symbol = "Ho"
+    atomic_mass = 164.93
+    atomic_number = 67
+    type = "Rare Earth Metals (Natural)"
