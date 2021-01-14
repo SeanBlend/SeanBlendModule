@@ -324,3 +324,10 @@ class Palladium(Element):
     atomic_mass = 106.42
     atomic_number = 46
     type = "Transition Metals (Natural)"
+
+class Silver(Element):
+    name = "Silver"
+    chemical_symbol = "Ag"
+    atomic_mass = 107.87
+    atomic_number = 47
+    type = "Transition Metals (Natural)"
