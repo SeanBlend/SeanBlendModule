@@ -443,3 +443,10 @@ class Europium(Element):
     atomic_mass = 151.96
     atomic_number = 63
     type = "Rare Earth Metals (Natural)"
+
+class Gadolinium(Element):
+    name = "Gadolinium"
+    chemical_symbol = "Gd"
+    atomic_mass = 157.25
+    atomic_number = 64
+    type = "Rare Earth Metals (Natural)"
