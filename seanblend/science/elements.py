@@ -485,3 +485,10 @@ class Thulium(Element):
     atomic_mass = 168.93
     atomic_number = 69
     type = "Rare Earth Metals (Natural)"
+
+class Ytterbium(Element):
+    name = "Ytterbium"
+    chemical_symbol = "Yb"
+    atomic_mass = 173.04
+    atomic_number = 70
+    type = "Rare Earth Metals (Natural)"
