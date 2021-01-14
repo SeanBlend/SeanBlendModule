@@ -317,3 +317,10 @@ class Rhodium(Element):
     atomic_mass = 102.91
     atomic_number = 45
     type = "Transition Metals (Natural)"
+
+class Palladium(Element):
+    name = "Palladium"
+    chemical_symbol = "Pd"
+    atomic_mass = 106.42
+    atomic_number = 46
+    type = "Transition Metals (Natural)"
