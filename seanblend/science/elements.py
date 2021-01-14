@@ -478,3 +478,10 @@ class Erbium(Element):
     atomic_mass = 167.26
     atomic_number = 68
     type = "Rare Earth Metals (Natural)"
+
+class Thulium(Element):
+    name = "Thulium"
+    chemical_sumbol = "Tm"
+    atomic_mass = 168.93
+    atomic_number = 69
+    type = "Rare Earth Metals (Natural)"
