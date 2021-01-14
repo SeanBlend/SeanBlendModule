@@ -436,3 +436,10 @@ class Samarium(Element):
     atomic_mass = 150.36
     atomic_number = 62
     type = "Rare Earth Metals (Natural)"
+
+class Europium(Element):
+    name = "Europium"
+    chemical_symbol = "Eu"
+    atomic_mass = 151.96
+    atomic_number = 63
+    type = "Rare Earth Metals (Natural)"
