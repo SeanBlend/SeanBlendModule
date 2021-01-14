@@ -352,3 +352,10 @@ class Tin(Element):
     atomic_mass = 118.71
     atomic_number = 50
     type = "Mainly Non-metals (Natural)"
+
+class Antimony(Element):
+    name = "Antimony"
+    chemical_symbol = "Sb"
+    atomic_mass = 121.76
+    atomic_number = 51
+    type = "Mainly Non-metals (Natural)"
