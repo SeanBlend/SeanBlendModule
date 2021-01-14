@@ -289,3 +289,10 @@ class Niobium(Element):
     atomic_mass = 92.906
     atomic_number = 41
     type = "Transition Metals (Natural)"
+
+class Molybdenum(Element):
+    name = "Molybdenum"
+    chemical_symbol = "Mo"
+    atomic_mass = 95.94
+    atomic_number = 42
+    type = "Transition Metals (Natural)"
