@@ -401,3 +401,10 @@ class Lathanium(Element):
     atomic_mass = 138.91
     atomic_number = 57
     type = "Rare Earth Metals (Natural)"
+
+class Cerium(Element):
+    name = "Cerium"
+    chemical_symbol = "Ce"
+    atomic_mass = 140.12
+    atomic_number = 58
+    type = "Rare Earth Metals (Natural)"
