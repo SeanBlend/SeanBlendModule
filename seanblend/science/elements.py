@@ -387,3 +387,10 @@ class Caesium(Element):
     atomic_mass = 132.91
     atomic_number = 55
     type = "Reactive Metals (Natural)"
+
+class Barium(Element):
+    name = "Barium"
+    chemical_symbol = "Ba"
+    atomic_mass = 137.33
+    atomic_number = 56
+    type = "Reactive Metals (Natural)"
