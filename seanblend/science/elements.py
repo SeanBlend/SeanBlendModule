@@ -415,3 +415,10 @@ class Praseodymium(Element):
     atomic_mass = 140.91
     atomic_number = 59
     type = "Rare Earth Metals (Natural)"
+
+class Neodymium(Element):
+    name = "Neodymium"
+    chemical_symbol = "Nd"
+    atomic_mass = 144.24
+    atomic_number = 60
+    type = "Rare Earth Metals (Natural)"
