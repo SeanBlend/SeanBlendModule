@@ -338,3 +338,10 @@ class Cadmium(Element):
     atomic_mass = 15.999
     atomic_number = 48
     type = "Transition Metals (Natural)"
+
+class Indium(Element):
+    name = "Indium"
+    chemical_symbol = "In"
+    atomic_mass = 114.82
+    atomic_number = 49
+    type = "Mainly Non-metals (Natural)"
