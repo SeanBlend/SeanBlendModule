@@ -310,3 +310,10 @@ class Ruthenium(Element):
     atomic_mass = 101.07
     atomic_number = 44
     type = "Transition Metals (Natural)"
+
+class Rhodium(Element):
+    name = "Rhodium"
+    chemical_symbol = "Rh"
+    atomic_mass = 102.91
+    atomic_number = 45
+    type = "Transition Metals (Natural)"
