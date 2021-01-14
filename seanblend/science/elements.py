@@ -282,3 +282,10 @@ class Zirconium(Element):
     atomic_mass = 91.224
     atomic_number = 40
     type = "Transition Metals (Natural)"
+
+class Niobium(Element):
+    name = "Niobium"
+    chemical_symbol = "Nb"
+    atomic_mass = 92.906
+    atomic_number = 41
+    type = "Transition Metals (Natural)"
