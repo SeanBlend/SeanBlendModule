@@ -268,3 +268,10 @@ class Strontium(Element):
     atomic_mass = 87.62
     atomic_number = 38
     type = "Reactive Metals (Natural)"
+
+class Yttrium(Element):
+    name = "Yttrium"
+    chemical_symbol = "Y"
+    atomic_mass = 88.906
+    atomic_number = 39
+    type = "Transition Metals (Natural)"
