@@ -345,3 +345,10 @@ class Indium(Element):
     atomic_mass = 114.82
     atomic_number = 49
     type = "Mainly Non-metals (Natural)"
+
+class Tin(Element):
+    name = "Tin"
+    chemical_symbol = "Sn"
+    atomic_mass = 118.71
+    atomic_number = 50
+    type = "Mainly Non-metals (Natural)"
