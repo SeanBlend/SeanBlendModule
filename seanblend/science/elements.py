@@ -408,3 +408,10 @@ class Cerium(Element):
     atomic_mass = 140.12
     atomic_number = 58
     type = "Rare Earth Metals (Natural)"
+
+class Praseodymium(Element):
+    name = "Praseodymium"
+    chemical_symbol = "Pr"
+    atomic_mass = 140.91
+    atomic_number = 59
+    type = "Rare Earth Metals (Natural)"
