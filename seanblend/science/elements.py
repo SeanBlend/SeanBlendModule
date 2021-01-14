@@ -394,3 +394,10 @@ class Barium(Element):
     atomic_mass = 137.33
     atomic_number = 56
     type = "Reactive Metals (Natural)"
+
+class Lathanium(Element):
+    name = "Lathanium"
+    chemical_symbol = "La"
+    atomic_mass = 138.91
+    atomic_number = 57
+    type = "Rare Earth Metals (Natural)"
