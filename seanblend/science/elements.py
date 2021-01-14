@@ -380,3 +380,10 @@ class Xenon(Element):
     atomic_mass = 131.29
     atomic_number = 54
     type = "Mainly Non-metals (Natural)"
+
+class Caesium(Element):
+    name = "Caesium"
+    chemical_symbol = "Cs"
+    atomic_mass = 132.91
+    atomic_number = 55
+    type = "Reactive Metals (Natural)"
