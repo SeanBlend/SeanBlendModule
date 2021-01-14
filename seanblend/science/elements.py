@@ -331,3 +331,10 @@ class Silver(Element):
     atomic_mass = 107.87
     atomic_number = 47
     type = "Transition Metals (Natural)"
+
+class Cadmium(Element):
+    name = "Cadmium"
+    chemical_symbol = "Cd"
+    atomic_mass = 15.999
+    atomic_number = 48
+    type = "Transition Metals (Natural)"
