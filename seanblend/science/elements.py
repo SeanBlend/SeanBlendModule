@@ -422,3 +422,10 @@ class Neodymium(Element):
     atomic_mass = 144.24
     atomic_number = 60
     type = "Rare Earth Metals (Natural)"
+
+class Promethium(Element):
+    name = "Promethium"
+    chemical_symbol = "Pm"
+    atomic_mass = 145
+    atomic_number = 61
+    type = "Rare Earth Metals (Natural)"
