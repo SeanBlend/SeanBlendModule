@@ -303,3 +303,10 @@ class Technetium(Element):
     atomic_mass = 96
     atomic_number = 43
     type = "Transition Metals (Natural)"
+
+class Ruthenium(Element):
+    name = "Ruthenium"
+    chemical_symbol = "Ru"
+    atomic_mass = 101.07
+    atomic_number = 44
+    type = "Transition Metals (Natural)"
