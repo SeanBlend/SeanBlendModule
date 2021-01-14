@@ -275,3 +275,10 @@ class Yttrium(Element):
     atomic_mass = 88.906
     atomic_number = 39
     type = "Transition Metals (Natural)"
+
+class Zirconium(Element):
+    name = "Zirconium"
+    chemical_symbol = "Zr"
+    atomic_mass = 91.224
+    atomic_number = 40
+    type = "Transition Metals (Natural)"
