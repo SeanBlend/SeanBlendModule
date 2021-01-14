@@ -366,3 +366,10 @@ class Tellurium(Element):
     atomic_mass = 127.60
     atomic_number = 52
     type = "Mainly Non-metals (Natural)"
+
+class Iodine(Element):
+    name = "Iodine"
+    chemical_symbol = "I"
+    atomic_mass = 126.90
+    atomic_number = 53
+    type = "Mainly Non-metals (Natural)"
