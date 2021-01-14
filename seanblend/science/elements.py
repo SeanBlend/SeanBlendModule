@@ -359,3 +359,10 @@ class Antimony(Element):
     atomic_mass = 121.76
     atomic_number = 51
     type = "Mainly Non-metals (Natural)"
+
+class Tellurium(Element):
+    name = "Tellurium"
+    chemical_symbol = "Te"
+    atomic_mass = 127.60
+    atomic_number = 52
+    type = "Mainly Non-metals (Natural)"
