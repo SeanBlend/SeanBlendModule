@@ -492,3 +492,10 @@ class Ytterbium(Element):
     atomic_mass = 173.04
     atomic_number = 70
     type = "Rare Earth Metals (Natural)"
+
+class Lutetium(Element):
+    name = "Lutetium"
+    chemical_symbol = "Lu"
+    atomic_mass = 174.97
+    atomic_number = 71
+    type = "Rare Earth Metals (Natural)"
