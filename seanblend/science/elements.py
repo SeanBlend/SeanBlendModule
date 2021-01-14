@@ -457,3 +457,10 @@ class Terbium(Element):
     atomic_mass = 158.93
     atomic_number = 65
     type = "Rare Earth Metals (Natural)"
+
+class Dysprosium(Element):
+    name = "Dysprosium"
+    chemical_symbol = "Dy"
+    atomic_mass = 162.5
+    atomic_number = 66
+    type = "Rare Earth Metals (Natural)"
