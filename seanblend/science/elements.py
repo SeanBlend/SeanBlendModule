@@ -450,3 +450,10 @@ class Gadolinium(Element):
     atomic_mass = 157.25
     atomic_number = 64
     type = "Rare Earth Metals (Natural)"
+
+class Terbium(Element):
+    name = "Terbium"
+    chemical_symbol = "Tb"
+    atomic_mass = 158.93
+    atomic_number = 65
+    type = "Rare Earth Metals (Natural)"
