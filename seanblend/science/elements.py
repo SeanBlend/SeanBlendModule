@@ -499,3 +499,10 @@ class Lutetium(Element):
     atomic_mass = 174.97
     atomic_number = 71
     type = "Rare Earth Metals (Natural)"
+
+class Hafnium(Element):
+    name = "Hafnium"
+    chemical_symbol = "Hf"
+    atomic_mass = 178.49
+    atomic_number = 72
+    type = "Transition Metals"
