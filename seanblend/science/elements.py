@@ -505,11 +505,18 @@ class Hafnium(Element):
     chemical_symbol = "Hf"
     atomic_mass = 178.49
     atomic_number = 72
-    series = "Transition Metals"
+    series = "Transition Metals (Natural)"
 
 class Tantalum(Element):
     name = "Tantalum"
     chemical_symbol = "Ta"
     atomic_mass = 180.95
     atomic_number = 73
-    series = "Transition Metals"
+    series = "Transition Metals (Natural)"
+
+class Tungsten(Element):
+    name = "Tungsten"
+    chemical_symbol = "W"
+    atomic_mass = 183.84
+    atomic_number = 74
+    series = "Transition Metals (Natural)"
