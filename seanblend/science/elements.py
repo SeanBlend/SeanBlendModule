@@ -2,6 +2,9 @@ class Element:
     def data(self):
         return f"Name: {self.name}\nChemical Symbol: {self.chemical_symbol}\nAtomic Mass: {self.atomic_mass}\nAtomic Number: {self.atomic_number}\nSeries: {self.series}"
 
+    def __repr__(self):
+        return f"{self.name.lower()} element object"
+
 
 class Hydrogen(Element):
     name = "Hydrogen"
@@ -575,4 +578,11 @@ class Lead(Element):
     chemical_symbol = "Pb"
     atomic_mass = 207.2
     atomic_number = 82
+    series = "Mainly Non-metals (Natural)"
+
+class Bismuth(Element):
+    name = "Bismuth"
+    chemical_symbol = "Bi"
+    atomic_mass = 208.96
+    atomic_number = 83
     series = "Mainly Non-metals (Natural)"
