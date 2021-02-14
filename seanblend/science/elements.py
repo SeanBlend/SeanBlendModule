@@ -1,6 +1,6 @@
 class Element:
     def data(self):
-        print(f"Name: {self.name}\nChemical Symbol: {self.chemical_symbol}\nAtomic Mass: {self.atomic_mass}\nAtomic Number: {self.atomic_number}\nSeries: {self.series}")
+        return f"Name: {self.name}\nChemical Symbol: {self.chemical_symbol}\nAtomic Mass: {self.atomic_mass}\nAtomic Number: {self.atomic_number}\nSeries: {self.series}"
 
 
 class Hydrogen(Element):
@@ -562,3 +562,10 @@ class Mercury(Element):
     atomic_mass = 15.999
     atomic_number = 80
     series = "Transition Metals (Natural)"
+
+class Thallium(Element):
+    name = "Thallium"
+    chemical_symbol = "Tl"
+    atomic_mass = 204.38
+    atomic_number = 81
+    series = "Mainly Non-metals (Natural)"
