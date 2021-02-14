@@ -540,3 +540,11 @@ class Irdium(Element):
     chemical_symbol = "Ir"
     atomic_mass = 192.22
     atomic_number = 77
+    series = "Transition Metals (Natural)"
+
+class Platinum(Element):
+    name = "Platinum"
+    chemical_symbol = "Pt"
+    atomic_mass = 195.08
+    atomic_number = 78
+    series = "Transition Metals (Natural)"
