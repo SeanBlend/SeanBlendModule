@@ -555,3 +555,10 @@ class Gold(Element):
     atomic_mass = 196.97
     atomic_number = 79
     series = "Transition Metals (Natural)"
+
+class Mercury(Element):
+    name = "Mercury"
+    chemical_symbol = "Hg"
+    atomic_mass = 15.999
+    atomic_number = 80
+    series = "Transition Metals (Natural)"
