@@ -569,3 +569,10 @@ class Thallium(Element):
     atomic_mass = 204.38
     atomic_number = 81
     series = "Mainly Non-metals (Natural)"
+
+class Lead(Element):
+    name = "Lead"
+    chemical_symbol = "Pb"
+    atomic_mass = 207.2
+    atomic_number = 82
+    series = "Mainly Non-metals (Natural)"
