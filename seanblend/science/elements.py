@@ -527,3 +527,10 @@ class Rhenium(Element):
     atomic_mass = 186.2
     atomic_number = 75
     series = "Transition Metals (Natural)"
+
+class Osmium(Element):
+    name = "Osmium"
+    chemical_symbol = "Os"
+    atomic_mass = 190.2
+    atomic_number = 76
+    series = "Transition Metals (Natural)"
