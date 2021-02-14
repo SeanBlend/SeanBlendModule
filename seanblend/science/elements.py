@@ -593,3 +593,10 @@ class Polonium(Element):
     atomic_mass = 209
     atomic_number = 84
     series = "Mainly Non-metals (Natural)"
+
+class Astatine(Element):
+    name = "Astatine"
+    chemical_symbol = "At"
+    atomic_mass = 210
+    atomic_number = 85
+    series = "Mainly Non-metals (Natural)"
