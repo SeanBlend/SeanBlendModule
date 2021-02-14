@@ -520,3 +520,10 @@ class Tungsten(Element):
     atomic_mass = 183.84
     atomic_number = 74
     series = "Transition Metals (Natural)"
+
+class Rhenium(Element):
+    name = "Rhenium"
+    chemical_symbol = "Re"
+    atomic_mass = 190.2
+    atomic_number = 75
+    series = "Transition Metals (Natural)"
