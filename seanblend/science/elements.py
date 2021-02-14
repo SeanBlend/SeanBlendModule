@@ -586,3 +586,10 @@ class Bismuth(Element):
     atomic_mass = 208.96
     atomic_number = 83
     series = "Mainly Non-metals (Natural)"
+
+class Polonium(Element):
+    name = "Polonium"
+    chemical_symbol = "Po"
+    atomic_mass = 209
+    atomic_number = 84
+    series = "Mainly Non-metals (Natural)"
