@@ -1,4 +1,5 @@
 *.pyc
-build/*
-dist/*
-seanblend.egg-info/*
+build
+dist
+seanblend.egg-info
+a.py
