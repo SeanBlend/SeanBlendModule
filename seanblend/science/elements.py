@@ -524,13 +524,19 @@ class Tungsten(Element):
 class Rhenium(Element):
     name = "Rhenium"
     chemical_symbol = "Re"
-    atomic_mass = 186.2
+    atomic_mass = 186.21
     atomic_number = 75
     series = "Transition Metals (Natural)"
 
 class Osmium(Element):
     name = "Osmium"
     chemical_symbol = "Os"
-    atomic_mass = 190.2
+    atomic_mass = 190.23
     atomic_number = 76
     series = "Transition Metals (Natural)"
+
+class Irdium(Element):
+    name = "Irdium"
+    chemical_symbol = "Ir"
+    atomic_mass = 192.22
+    atomic_number = 77
