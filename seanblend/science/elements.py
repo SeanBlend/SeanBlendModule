@@ -548,3 +548,10 @@ class Platinum(Element):
     atomic_mass = 195.08
     atomic_number = 78
     series = "Transition Metals (Natural)"
+
+class Gold(Element):
+    name = "Gold"
+    chemical_symbol = "Au"
+    atomic_mass = 196.97
+    atomic_number = 79
+    series = "Transition Metals (Natural)"
