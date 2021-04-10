@@ -13,4 +13,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run a one-line script
-        run: python ./seanblend/__init__.py
+        run: python ./setup.py bdist_wheel sdist
